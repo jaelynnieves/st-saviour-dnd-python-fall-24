@@ -46,7 +46,7 @@ class Tav:
         self.wisdom       = stats[5]
 
     def roll() -> int:
-        r = random.randint(1, 20)
-        draw_d20(r)
-        return r
+        roll= random.randint(1, 20)
+        draw_d20(roll)
+        return roll 
 
